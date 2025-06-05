@@ -53,7 +53,7 @@ MobileVLM: Vision Language Model for Mobile Devices
 * **`Feb. 26th, 2024`**: MobileVLM V2 training data and code are available now! Follow the instructions below to train your own mobileVLM V2 model !
 * **`Feb. 06th, 2024`**: 🔥🔥🔥 **MobileVLM V2** is out! Paper [here](https://arxiv.org/abs/2402.03766)! The inference code of MobileVLM V2 is available now! Our MobileVLM V2 weights are publicly available on the HuggingFace website. Enjoy [them](https://huggingface.co/mtgv/) !
 * **`Feb. 06th, 2024`**: The SFT code and dataset of MobileLLaMA are released now! You can train your own chat model.
-* **`Jan. 23rd, 2024`**: 🚀🚀🚀 **MobileVLM** is officially supported by [`llama.cpp`](https://github.com/ggerganov/llama.cpp/blob/master/examples/llava/MobileVLM-README.md) now ! Have a try !
+* **`Jan. 23rd, 2024`**: 🚀🚀🚀 **MobileVLM** is officially supported by [`llama.cpp`](https://github.com/ggml-org/llama.cpp/blob/master/examples/llava/MobileVLM-README.md) now ! Have a try !
 * **`Jan. 15th, 2024`**: Customized `llama.cpp` for **MobileVLM** and its [deployment instruction](#deployment-on-mobile-devices) on mobile devices.
 * **`Jan. 11st, 2024`**: The training and evaluation codes of MobileVLM are available now! Follow these  step-by-step instructions below to easily train your own mobileVLM in **5 hours** ⚡️ !
 * **`Dec. 31st, 2023`**: Our MobileVLM weights are uploaded on the HuggingFace website. We also provide inference examples for the MobileLLaMA/MobileVLM model so that anyone can enjoy [them](https://huggingface.co/mtgv/) early.
@@ -315,12 +315,12 @@ Note: You may skip MobileLLaMA training processes and directly start with Mobile
 
 ## <h2 id="deployment-on-mobile-devices">📲 Deployment on Mobile Devices </h2>
 **MobileVLM** now is officially supported by `llama.cpp`. We are looking for more cooperation with open-source communities on the deployment of mobile devices.
-- [llama.cpp](https://github.com/ggerganov/llama.cpp): the repository of official `llama.cpp`. Step-by-step deployment instructions are provided [here](https://github.com/ggerganov/llama.cpp/blob/master/examples/llava/MobileVLM-README.md).
+- [llama.cpp](https://github.com/ggml-org/llama.cpp): the repository of official `llama.cpp`. Step-by-step deployment instructions are provided [here](https://github.com/ggml-org/llama.cpp/blob/master/docs/multimodal/MobileVLM.md).
 ## 🤝 Acknowledgments
 
 - [LLaVA](https://github.com/haotian-liu/LLaVA): the codebase we built upon. Thanks for their wonderful work! 👏
 - [Vicuna](https://github.com/lm-sys/FastChat): the amazing open-sourced large language model!
-- [llama.cpp](https://github.com/ggerganov/llama.cpp): the great open-sourced framework for the inference of LLaMA model in pure C/C++!
+- [llama.cpp](https://github.com/ggml-org/llama.cpp): the great open-sourced framework for the inference of LLaMA model in pure C/C++!
 
 
 ## ✏️ Reference
