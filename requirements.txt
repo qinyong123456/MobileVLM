@@ -1,6 +1,6 @@
 torch==2.0.1
 torchvision==0.15.2
-deepspeed==0.9.5
+#deepspeed==0.9.5
 transformers==4.33.1
 tokenizers==0.13.3
 sentencepiece==0.1.99
@@ -20,4 +20,4 @@ fastapi==0.103.0
 einops==0.6.1
 einops-exts==0.0.4
 timm==0.9.12
-flash-attn==2.3.2
+#flash-attn==2.3.2
